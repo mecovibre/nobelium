@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'MECO',
+  title: 'MECO on the Rock',
   author: 'MECO',
   email: 'meco.vibre@gmail.com',
   link: 'https://mecovibre.vercel.app',
@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/meco_vibre',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion', '아이허브', '웹소설', '로맨스판타지', 'BL', '비엘', '벨', '판타지', '현대판타지', '대체역사', '노션', '성소수자', '게이', '레즈비언', '트랜스젠더', '퀴어', '동성애자', '인권', '성소수자 인권', '인권운동', '활동가'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
