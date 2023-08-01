@@ -114,7 +114,6 @@ export default function Header ({ navBarTitle, fullWidth }) {
           <HeaderName
             ref={titleRef}
             siteTitle={BLOG.title}
-            siteDescription={BLOG.description}
             postTitle={navBarTitle}
             onClick={handleClickHeader}
           />
@@ -125,7 +124,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
   )
 }
 
-const HeaderName = forwardRef(function HeaderName ({ siteTitle, siteDescription, postTitle, onClick }, ref) {
+const HeaderName = forwardRef(function HeaderName ({ siteTitle, postTitle, onClick }, ref) {
   return (
     <p
       ref={ref}
@@ -135,7 +134,6 @@ const HeaderName = forwardRef(function HeaderName ({ siteTitle, siteDescription,
       {postTitle && <span className="post-title row-start-1 col-start-1">{postTitle}</span>}
       <span className="row-start-1 col-start-1">
         <span className="site-title">{siteTitle}</span>
-        <span className="site-description font-normal">, {siteDescription}</span>
       </span>
     </p>
   )
