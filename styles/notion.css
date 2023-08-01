@@ -54,7 +54,6 @@
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
   font-size: 1.13rem;
-  margin-bottom: -0.7rem;
 }
 .notion,
 .notion-text,
@@ -131,9 +130,11 @@ pre[class*='language-'] {
 .notion-page {
   @apply w-auto;
   @apply px-0;
+  margin-bottom: -0.7em;
 }
 .notion-quote {
   padding: 0.2em 0.9em;
+  font-size: 1.12rem;
 }
 .notion-hr {
   border-top-width: 1px;
