@@ -183,6 +183,7 @@ pre[class*='language-'] {
 
 .notion-list {
   padding-inline-start: 28px;
+  margin-bottom: -0.15rem;
 }
 
 .notion-list > li {
