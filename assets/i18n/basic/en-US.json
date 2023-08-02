@@ -1,9 +1,9 @@
 {
   "NAV": {
-    "INDEX": "Blog",
+    "INDEX": "글",
     "RSS": "RSS",
-    "SEARCH": "Search",
-    "ABOUT": "About"
+    "SEARCH": "검색",
+    "ABOUT": "소개"
   },
   "PAGINATION": {
     "PREV": "Prev",
