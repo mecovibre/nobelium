@@ -54,6 +54,7 @@
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
   font-size: 1.135rem;
+  margin-bottom: -0.15rem;
 }
 .notion,
 .notion-text,
@@ -149,6 +150,7 @@ pre[class*='language-'] {
 }
 .notion-list {
   width: 100%;
+  margin-bottom: -0.15rem;
 }
 .notion-collection {
   @apply max-w-full;
@@ -188,7 +190,6 @@ pre[class*='language-'] {
 .notion-list > li {
   padding-left: 2px;
   padding-right: 2px;
-  margin-bottom: -0.15rem;
 }
 
 /* Every block */
