@@ -44,7 +44,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
           content="https://github.com/mecovibre/nobelium/blob/main/public/cardogimage.jpg?raw=true"
         />
         <meta property="og:type" content={meta.type} />
-        <meta name="twitter:card" content="summary-large-image" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:title" content={meta.title} />
         <meta
