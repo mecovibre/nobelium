@@ -41,7 +41,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         />
         <meta
           property="og:image"
-          content="https://github.com/mecovibre/nobelium/blob/main/public/cardogimage.jpg?raw=true"
+          content="https://github.com/mecovibre/nobelium/blob/main/public/card-image.jpg?raw=true"
         />
         <meta property="og:type" content={meta.type} />
         <meta name="twitter:card" content="summary_large_image" />
@@ -49,7 +49,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         <meta name="twitter:title" content={meta.title} />
         <meta
           name="twitter:image"
-          content="https://github.com/mecovibre/nobelium/blob/main/public/cardogimage.jpg?raw=true"
+          content="https://github.com/mecovibre/nobelium/blob/main/public/card-image.jpg?raw=true"
         />
         {meta.type === 'article' && (
           <>
