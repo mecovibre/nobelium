@@ -3,7 +3,7 @@ const BLOG = {
   author: 'MECO',
   email: 'meco.vibre@gmail.com',
   link: 'https://mecovibre.vercel.app',
-  description: '',
+  description: '30대 직장인 게이지만 그냥 이것저것 말합니다.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Seoul', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
